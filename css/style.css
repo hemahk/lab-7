@@ -1,20 +1,30 @@
 .center {
-  text-align: center;
+    text-align: center;
 }
-#container {
-  width: 400px;
-  margin: 50px auto 0;
+
+#container{
+    width: 400px;
+    margin: 50px auto 0;
 }
-#entryinput {
-  width: 100%;
+
+#entryinput{
+    width: 100%;
 }
-#entrybutton {
-  width: 200px;
-  text-align: center;
-  color: #fff;
-  background-color: #c00;
-  padding: 2em 0;
-  margin: 20px auto;
-  font-size: 24px;
-  font-weight: bold;
+
+#entrybutton{
+    width: 200px;
+    text-align: center;
+    color: #fff;
+    background-color: #40e0d0;
+    padding: 2em 0;
+    margin: 20px auto;
+    font-size: 24px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#entrybutton:hover{
+    width: 220px;
+    background-color: #91ede4;
+    cursor: pointer;
 }
